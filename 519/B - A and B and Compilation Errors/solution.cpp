@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;int n, x;long long a, b, c; int main() {     cin>>n;     for (int i = 0; i < n; i++) {       cin>>x;        a += x;    }     for (int i = 0; i < n - 1; i++) {        cin>>x;        b += x;    }     for (int i = 0; i < n - 2; i++) {       cin>>x;        c += x;    }     printf("%I64d\n%I64d\n", a - b, b - c);      }
